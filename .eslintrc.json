@@ -1,0 +1,70 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "requireConfigFile": false
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "quote-props": ["error", "as-needed"],
+    "object-curly-spacing": ["error", "always"],
+    "prefer-template": "error",
+    "no-trailing-spaces": "error",
+    "no-prototype-builtins": "off",
+    "import/no-named-as-default": "off",
+    "linebreak-style": ["error", "unix"],
+    "arrow-parens": ["warn", "as-needed"],
+    "comma-dangle": ["error", "always-multiline"],
+    "space-before-function-paren": ["error", "never"],
+    "import/no-anonymous-default-export": "off",
+    "react/prop-types": "off",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "react/jsx-max-props-per-line": [
+      "error", {
+        "maximum": {
+          "single": 3,
+          "multi": 1
+        }
+      }],
+    "react/jsx-newline": ["error"],
+    "react/jsx-curly-newline": ["error", {
+      "multiline": "require",
+      "singleline": "consistent"
+    }],
+    "react/jsx-curly-spacing": ["error", {
+      "when": "always",
+      "attributes": false,
+      "children": true
+    }],
+    "react/jsx-one-expression-per-line": ["error", {
+      "allow": "single-child"
+    }],
+    "react/jsx-wrap-multilines": ["error", {
+      "declaration": "parens-new-line",
+      "assignment": "parens-new-line",
+      "return": "parens-new-line",
+      "arrow": "parens-new-line",
+      "condition": "parens-new-line",
+      "logical": "parens-new-line",
+      "prop": "parens-new-line"
+    }],
+    "react/jsx-boolean-value": ["error", "never"],
+    "react/jsx-no-useless-fragment": ["error"],
+    "react/jsx-first-prop-new-line": ["error", "multiline"],
+    "indent": ["error", 2],
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "error",
+    "tailwindcss/no-arbitrary-value": "off",
+    "tailwindcss/no-contradicting-classname": "error",
+    "jsx-quotes": ["error", "prefer-double"]
+  }
+}

@@ -1,0 +1,23 @@
+html {
+  min-width: 300px;
+  font-kerning: none;
+  text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 100 / 375 * 1vw;
+
+  @screen md {
+    font-size: 100 / 1441 * 1vw;
+  }
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*! purgecss start ignore */
+
+@use "variables.scss";
+@use "base";
+@use "elements";
+@use "modules";
+
+/*! purgecss end ignore */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-size: 16rem;
+    line-height: normal;
+  }
+}

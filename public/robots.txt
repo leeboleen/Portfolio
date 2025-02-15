@@ -1,0 +1,4 @@
+User-agent: *
+
+# TODO: update domain here
+Sitemap: https://site-name.hfdev.uk/sitemap-index.xml
