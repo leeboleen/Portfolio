@@ -1,7 +1,7 @@
 import { buildClient } from '@datocms/cma-client-node';
 
 export const config = {
-  maxDuration: 300,
+  maxDuration: 60,
 };
 
 export default async function handler(request, response) {
